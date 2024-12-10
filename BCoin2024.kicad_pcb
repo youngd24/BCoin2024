@@ -14279,7 +14279,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "v 0.2"
+	(gr_text "v0.2"
 		(at 136.5 80.5 0)
 		(layer "F.SilkS")
 		(uuid "eed216be-a2bb-4fa4-9905-08b4ead30061")
