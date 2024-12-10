@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2024-12-09_06-37-04")(type "KiCad")(uri "${KIPRJMOD}/lib/74HC4017D_653/KiCADv6/2024-12-09_06-37-04.kicad_sym")(options "")(descr ""))
+  (lib (name "BCoin_Symbol_Library")(type "KiCad")(uri "${KIPRJMOD}/lib/BCoin_Symbol_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "BK-5067")(type "KiCad")(uri "${KIPRJMOD}/lib/BK_5067/BK-5067.kicad_sym")(options "")(descr ""))
+)
