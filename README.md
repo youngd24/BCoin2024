@@ -4,10 +4,13 @@ BurbSec Challenge Coin 2024
 What's the challenge? Show up to a meetup! That's it, show up and new attendees get one.
 
 ## Front
-![BCoin Image](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3-front.jpg "BCoin 2024")
+![BCoin Front](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3-front.jpg)
 
 ## Back
-![BCoin Image](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3-back.jpg "BCoin 2024")
+![BCoin Back](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3-back.jpg)
+
+## Schematic
+![Schematic](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3-schematic.jpg)
 
 ## Hacking it
 
