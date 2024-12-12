@@ -5,9 +5,9 @@
 	(uuid "81973eb7-292d-417c-8a8a-cb71070341da")
 	(paper "USLetter")
 	(title_block
-		(title "BurbSec Challenge Coin 2024")
-		(date "2024-12-09")
-		(rev "0.2")
+		(title "BurbSec Meetup Coin 2024")
+		(date "2024-12-10")
+		(rev "0.3")
 		(comment 1 "Email: youngd24@gmail.com")
 		(comment 2 "Author: DY")
 	)
@@ -1739,6 +1739,12 @@
 		(uuid "64c679f4-b2ef-4d98-ad3c-a245753cf88b")
 	)
 	(junction
+		(at 121.92 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6662b6cb-f41b-42cc-9ede-3b305ae7b21c")
+	)
+	(junction
 		(at 233.68 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2023,6 +2029,16 @@
 			(type default)
 		)
 		(uuid "2ebbed5d-8e72-498d-8bf1-1d772a0f7ee0")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbaf289-3ac3-43b2-be28-b8f9027f5d03")
 	)
 	(wire
 		(pts
@@ -2336,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 121.92 81.28)
+			(xy 121.92 67.31) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2483,6 +2499,16 @@
 			(type default)
 		)
 		(uuid "aa5249f8-4db5-4b28-b06e-9331aad900ee")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 130.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6dbcf8-baa2-4815-a4f8-eee011349290")
 	)
 	(wire
 		(pts
@@ -3545,6 +3571,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a5f2982-a02f-440c-b475-97c2187cfe42")
+		(property "Reference" "#PWR03"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f62ccd7-2c3c-46b5-b0d8-52e9cff5f39d")
+		)
+		(instances
+			(project ""
+				(path "/81973eb7-292d-417c-8a8a-cb71070341da"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 226.06 106.68 180)
 		(unit 1)
@@ -4220,6 +4313,73 @@
 			(project ""
 				(path "/81973eb7-292d-417c-8a8a-cb71070341da"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f00480c7-a4cc-4fda-a188-70fdd49ff0ae")
+		(property "Reference" "C3"
+			(at 125.476 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 125.984 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.54 76.5048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B103KO8WPNC_Spec.pdf"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36065581-a5be-4655-8c37-909780a7f10b")
+		)
+		(pin "1"
+			(uuid "b0531283-8ea6-416f-8121-da118173f50f")
+		)
+		(instances
+			(project "BCoin2024"
+				(path "/81973eb7-292d-417c-8a8a-cb71070341da"
+					(reference "C3")
 					(unit 1)
 				)
 			)
