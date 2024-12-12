@@ -18,6 +18,6 @@ If you want to adjust the rate at which the LED's flash around the edge you can 
 
 R1 - 10k - 0603 size\
 R2 - 10k - 0603 size\
-C1 - 10uF - 0805 size\
+C1 - 10uF - 0805 size
 
-DigiKey has a great tool to calculate the values [here](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-555-timer), just be sure to select the "astable" one.
+DigiKey has a great tool to calculate the values [here](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-555-timer), just be sure to select the "astable" one. Order some options from them, break out the soldering iron and hack it up!
