@@ -11,14 +11,14 @@ I've organized the South instance of BurbSec for coming up on a decace, I've alw
 
 At the core is a basic astable 555 timer, programmed via the RC circuit to be around 4Hz, which in turn drives a decade counter to the perimeter LED's. It's a "chaser" sort of circuit, they light up in order, that's it, dead simple. It's driven from a single CR2016 battery, though the pads fit a CR2032 holder as well. The components on the board are good down to around 2.6V so the battery should hold up for a bit, how long though, who knows, this thing isn't meant to run all day, it's a token.
 
+## Schematic
+![Schematic](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.4-schematic.jpg)
+
 ## Front
 ![BCoin Front](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.4-front.jpg)
 
 ## Back
 ![BCoin Back](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.4-back.jpg)
-
-## Schematic
-![Schematic](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.4-schematic.jpg)
 
 ## Hacking it
 
