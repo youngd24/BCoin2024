@@ -10685,7 +10685,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
-			(at 2.7125 0 0)
+			(at 0.4625 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "ad33d32b-5616-4200-8fc9-909c0eb96bf0")
 			(effects
@@ -20116,7 +20116,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D4"
-			(at 2.7125 0 0)
+			(at 0.7125 1.75 0)
 			(layer "F.SilkS")
 			(uuid "fc036a91-40ca-4e83-b243-b98505650e6f")
 			(effects
@@ -20352,7 +20352,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D10"
-			(at 3.2875 0 0)
+			(at 0.5375 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "b1a6a7ce-fbf7-4151-a3a1-e7fcd63109a6")
 			(effects
@@ -22132,7 +22132,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D9"
-			(at 2.7875 0 0)
+			(at 0.5375 1.75 0)
 			(layer "F.SilkS")
 			(uuid "a79c8c29-13d8-42ce-862e-67355c592d46")
 			(effects
@@ -22796,7 +22796,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
-			(at 2.4625 0 0)
+			(at 0.7125 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "ae11066c-d30b-48ab-a514-aeef1368624f")
 			(effects
@@ -23246,7 +23246,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D8"
-			(at 2.5375 0 0)
+			(at 0.7875 1.75 0)
 			(layer "F.SilkS")
 			(uuid "95875271-27fd-44fd-9aaa-26e3d3025deb")
 			(effects
@@ -23482,7 +23482,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D11"
-			(at 3.2875 0 0)
+			(at 1.5375 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "41297853-5485-47aa-8a70-d5cb6a5bf3c9")
 			(effects
@@ -23932,7 +23932,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D3"
-			(at 2.7125 0 0)
+			(at 1.7125 1.75 0)
 			(layer "F.SilkS")
 			(uuid "dfd19ba2-a3f2-441a-8b1e-a00fb8392f72")
 			(effects
@@ -24380,7 +24380,7 @@
 		(uuid "71a4bba3-4f1d-4fcd-a68a-d1961e71a503")
 		(at 134.67 80 180)
 		(property "Reference" "BT1"
-			(at 0.67 9 0)
+			(at 0.17 7.5 0)
 			(layer "B.SilkS")
 			(uuid "8339e940-12d0-4912-95e6-953695ef3c34")
 			(effects
@@ -24788,6 +24788,42 @@
 		(layer "Edge.Cuts")
 		(uuid "a13f7351-f3d7-48b1-83ab-39d9d0f5f62e")
 	)
+	(gr_text "S+1\nVCC"
+		(at 148 86.5 0)
+		(layer "B.SilkS")
+		(uuid "a0223875-ff97-4f4d-8faf-e9fefe439494")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 134.75 85.25 0)
+		(layer "B.SilkS")
+		(uuid "ef1088bb-c296-4a72-9531-57140e478f4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "CR2016 Battery"
+		(at 134.5 71 0)
+		(layer "B.SilkS")
+		(uuid "f658ebb7-913d-4bf3-b8aa-c75f25ffd2b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "2nd Thursday of the month\nPrime Time Restaurant\nHickory Hills\n95th St\n6:30 PM"
 		(at 134.5 107.5 0)
 		(layer "B.SilkS")
@@ -24798,6 +24834,18 @@
 				(thickness 0.1)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "-"
+		(at 112 84.25 0)
+		(layer "F.SilkS")
+		(uuid "07286e35-a55f-430b-9639-64e022952c7c")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "Darren Young\nyoungd24@gmail.com\nhttps://github.com/youngd24/BCoin2024"
@@ -24812,7 +24860,43 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "v0.3"
+	(gr_text "-"
+		(at 119 108 0)
+		(layer "F.SilkS")
+		(uuid "25febdf8-62af-420f-806f-3f3b4c5a7884")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "-"
+		(at 150.25 74 0)
+		(layer "F.SilkS")
+		(uuid "36f23e4f-fa95-468f-8e21-fe98e045d2f4")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "*"
+		(at 138 91.25 0)
+		(layer "F.SilkS")
+		(uuid "42b991a9-699a-410a-855f-f1878db504f8")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "v0.4"
 		(at 133 111 0)
 		(layer "F.SilkS")
 		(uuid "44c01df4-4d0a-4399-af4d-f513b8de643d")
@@ -24822,6 +24906,30 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 120 73.5 0)
+		(layer "F.SilkS")
+		(uuid "4e730648-fc28-4afa-ba3b-d0347b4b2c70")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "-"
+		(at 132 69 0)
+		(layer "F.SilkS")
+		(uuid "66221ee6-3343-44ab-912d-d72af7b12034")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "BurbSec"
@@ -24836,6 +24944,66 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "-"
+		(at 132.25 112.5 0)
+		(layer "F.SilkS")
+		(uuid "800b9802-551c-4b0a-862b-79cd054f3888")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "-"
+		(at 157 83.75 0)
+		(layer "F.SilkS")
+		(uuid "8d3df8a3-c8f8-47c9-9145-c04817ec5772")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "-"
+		(at 112 97.25 0)
+		(layer "F.SilkS")
+		(uuid "9a2ac9a7-cdc2-4976-aa52-3dfedd88ad06")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "-"
+		(at 156.6975 97.265 0)
+		(layer "F.SilkS")
+		(uuid "9ccd354a-3b2d-4ec7-aac1-dda1df1919ec")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "-"
+		(at 148.75 108.5 0)
+		(layer "F.SilkS")
+		(uuid "af149f54-ca20-492c-9778-7d3fb893ddb2")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "* South *\n2024 Coin"
 		(at 134.5 77.5 0)
 		(layer "F.SilkS" knockout)
@@ -24843,6 +25011,18 @@
 		(effects
 			(font
 				(size 1.2 1.2)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "*"
+		(at 129.5 101.5 0)
+		(layer "F.SilkS")
+		(uuid "dd22c2ca-59d9-4bc9-957c-1e58d1dd8a06")
+		(effects
+			(font
+				(size 1 0.8)
 				(thickness 0.1)
 			)
 			(justify bottom)
