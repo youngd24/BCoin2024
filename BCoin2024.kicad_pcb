@@ -24788,6 +24788,18 @@
 		(layer "Edge.Cuts")
 		(uuid "a13f7351-f3d7-48b1-83ab-39d9d0f5f62e")
 	)
+	(gr_text "WayWayWay"
+		(at 134.75 105.75 0)
+		(layer "B.SilkS")
+		(uuid "24f706b1-4e82-42df-8695-503c1a8e6157")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "S+1\nVCC"
 		(at 148 86.5 0)
 		(layer "B.SilkS")
@@ -24825,7 +24837,7 @@
 		)
 	)
 	(gr_text "2nd Thursday of the month\nPrime Time Restaurant\nHickory Hills\n95th St\n6:30 PM"
-		(at 134.5 107.5 0)
+		(at 134.5 101.75 0)
 		(layer "B.SilkS")
 		(uuid "f808d3c8-424e-4a27-82f0-a65c05b1c727")
 		(effects
