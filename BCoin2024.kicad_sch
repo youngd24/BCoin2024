@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "BurbSec Meetup Coin 2024")
-		(date "2024-12-10")
-		(rev "0.3")
+		(date "2024-12-20")
+		(rev "0.4")
 		(comment 1 "Email: youngd24@gmail.com")
 		(comment 2 "Author: DY")
 	)
@@ -2799,6 +2799,39 @@
 			(type default)
 		)
 		(uuid "fd3e9ea0-0ff7-49b2-aa2f-4fbd4285c253")
+	)
+	(text "Adjust as needed based on LED.\nThis value is for a blue-clear one."
+		(exclude_from_sim yes)
+		(at 212.598 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "1a7cec97-5e00-4738-81b3-473d9a9ab304")
+	)
+	(text "Red, blue, green or other color\n0603 SMD LED."
+		(exclude_from_sim yes)
+		(at 226.822 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "3245fbf5-9f15-42cf-93c1-b30b73e35fbc")
+	)
+	(text "See GitHub README on R1/R2/C1\nfor adjustment info."
+		(exclude_from_sim yes)
+		(at 86.106 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "3e0947ae-e376-40a6-b2a3-8370f523ebdf")
 	)
 	(symbol
 		(lib_id "BCoin_Symbol_Library:74HC4017D_653")
