@@ -21,3 +21,7 @@ R2 - 10k - 0603 size\
 C1 - 10uF - 0805 size
 
 DigiKey has a great tool to calculate the values [here](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-555-timer), just be sure to select the "astable" one. Order some options from them, break out the soldering iron and hack it up!
+
+## Modifying it
+
+Feel free to change whatever you'd like in the design, circuit or PCB. Make sure you run the ERC against the schematic as well as the DRC against the PCB, this will help catch any basic errors you may have introduced. Once you're ready use [these instructions](https://www.pcbway.com/blog/help_center/How_to_Generate_Gerber_and_Drill_Files_in_KiCad_7_0_ab0d12bb.html) to generate the Gerber and drill files needed for manufacturing.
