@@ -1371,6 +1371,296 @@
 				)
 			)
 		)
+		(symbol "LED_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2852,7 +3142,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC4017D_653"
+		(property "Value" "74HC4017D,653"
 			(at 186.3441 80.01 0)
 			(effects
 				(font
@@ -2871,7 +3161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74HC4017D_653"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC4017D-653/1230369"
 			(at 169.926 80.518 0)
 			(effects
 				(font
@@ -2881,7 +3171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC DECADE COUNTER 10BIT 16SO"
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -2964,7 +3254,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 108.712 0)
 			(effects
 				(font
@@ -2982,7 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 111.76 0)
 			(effects
 				(font
@@ -3102,7 +3392,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 78.232 0)
 			(effects
 				(font
@@ -3120,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -3154,6 +3444,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 226.06 76.2 180)
 		(unit 1)
@@ -3170,7 +3461,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 73.152 0)
 			(effects
 				(font
@@ -3188,7 +3479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -3198,6 +3489,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060VS75000"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -3238,7 +3538,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 113.792 0)
 			(effects
 				(font
@@ -3256,7 +3556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 116.84 0)
 			(effects
 				(font
@@ -3306,7 +3606,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 88.392 0)
 			(effects
 				(font
@@ -3324,7 +3624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -3536,6 +3836,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 212.09 132.08 90)
 		(unit 1)
@@ -3687,7 +3988,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 103.632 0)
 			(effects
 				(font
@@ -3705,7 +4006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 106.68 0)
 			(effects
 				(font
@@ -3892,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 98.552 0)
 			(effects
 				(font
@@ -3910,7 +4211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -4162,7 +4463,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 118.872 0)
 			(effects
 				(font
@@ -4180,7 +4481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 121.92 0)
 			(effects
 				(font
@@ -4230,7 +4531,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 93.472 0)
 			(effects
 				(font
@@ -4248,7 +4549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 96.52 0)
 			(effects
 				(font
@@ -4300,13 +4601,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED RED CLEAR 0603 SMD"
 			(at 151.13 108.2674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -4318,7 +4620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060SS75000/4489903"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -4329,6 +4631,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060SS75000"
+			(at 147.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4997,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED GREEN CLEAR 0603 SMD"
 			(at 226.06 83.312 0)
 			(effects
 				(font
@@ -4704,7 +5015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
 			(at 226.06 86.36 0)
 			(effects
 				(font
