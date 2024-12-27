@@ -21,7 +21,7 @@ At the core is a basic astable 555 timer, programmed via the RC circuit to be ar
 ![BCoin Back](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.4-back.jpg)
 
 ## Assembled
-![BCoin Assembled](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3_assembled.jpg)
+![BCoin Assembled](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3_assembled.JPG)
 
 ## Hacking it
 
