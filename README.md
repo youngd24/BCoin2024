@@ -20,6 +20,9 @@ At the core is a basic astable 555 timer, programmed via the RC circuit to be ar
 ## Back
 ![BCoin Back](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.4-back.jpg)
 
+## Assembled
+![BCoin Assembled](https://github.com/youngd24/BCoin2024/blob/main/assets/BCoin2024-v0.3_assembled.jpg)
+
 ## Hacking it
 
 If you want to adjust the rate at which the LED's flash around the edge you can swap out the R1/R2/C1 components that drive the 555 (astable) timer circuit. The value they're set to in the current form will drive them at 4.8 Hz, current values are:
